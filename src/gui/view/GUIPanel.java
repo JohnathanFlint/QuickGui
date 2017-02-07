@@ -72,7 +72,7 @@ public class GUIPanel extends JPanel
 				{
 					public void actionPerformed(ActionEvent click)
 					{
-						
+						output.setText(baseController.stransferFibonacci(input.getText()));
 					}
 				});
 	}
