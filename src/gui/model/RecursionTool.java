@@ -26,4 +26,18 @@ public class RecursionTool
 		}
 	}
 	
+	public double calculateFactIter(double currentNumber)
+	{
+		double answer = 1;
+		
+		for(double n = 1; n <= currentNumber; n++)
+		{
+			answer *= n;
+		}
+		
+		return answer;
+	}
+	
+	
+	
 }

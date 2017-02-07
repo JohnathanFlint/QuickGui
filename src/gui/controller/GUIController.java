@@ -32,6 +32,14 @@ public class GUIController
 		factorialResponse += "\n" + mathTimer.toString();
 		mathTimer.resetTimer();
 		
+		mathTimer.startTimer();
+		if(isValid(value))
+		{
+			factorialResponse += mathTool.calculateFactIter(Integer.parseInt(currentNumber));
+		}
+		mathTimer.stopTimer();
+		factorialResponse += "\n" + mathTimer.toString();
+		
 		return factorialResponse;
 	}
 	
