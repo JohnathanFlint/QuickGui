@@ -30,7 +30,7 @@ public class GUIController
 	{
 		try
 		{
-			int test = Integer.parseInt(current);
+			double test = Double.parseDouble(current);
 			if(test >= 0)
 			{
 				return true;
