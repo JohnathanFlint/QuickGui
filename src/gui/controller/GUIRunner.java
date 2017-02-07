@@ -2,6 +2,9 @@ package gui.controller;
 
 public class GUIRunner
 {
-	GUIController GuiAppController = new GUIController();
-	GUIAppController.start();
+	public static void main(String[] args)
+	{
+		GUIController GUIAppController = new GUIController();
+		GUIAppController.start();
+	}
 }
