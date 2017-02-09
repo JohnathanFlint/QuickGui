@@ -38,6 +38,23 @@ public class RecursionTool
 		return answer;
 	}
 	
+	public int calculateFibIter(int currentNumber)
+	{
+		int number1 = 0;
+		int number2 = 1;
+		int number3 = 1;
+		
+		for(int index = 0; index < currentNumber; index++)
+		{
+			number1 = number2;
+			
+			number2 = number3;
+			
+			number3 = number1 + number2;
+		}
+		return number1;
+	}
+	
 	
 	
 }
