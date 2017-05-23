@@ -35,7 +35,7 @@ public class GUIController
 		mathTimer.startTimer();
 		if(isValid(value))
 		{
-			factorialResponse += mathTool.calculateFactIter(Integer.parseInt(currentNumber));
+			//factorialResponse += mathTool.calculateFactIter(Integer.parseInt(currentNumber));
 		}
 		mathTimer.stopTimer();
 		factorialResponse += "\n" + mathTimer.toString();
